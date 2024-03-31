@@ -1,0 +1,313 @@
+[
+    {
+      "order_id": "ORD123456789",
+      "order_date": "2023-12-01",
+      "delivery_date": "2023-12-05",
+      "pickup_date": "2023-12-15",
+      "total_order_amount": 3500,
+      "stage": "Order Received",
+      "customer_details": {
+        "name": "Emma Johnson",
+        "contact_number": "1234567890",
+        "email": "emma@example.com",
+        "delivery_address": "123 Main St, Anytown, USA"
+      },
+      "items": [
+        {
+          "name": "Vintage Armchair",
+          "size": "Medium",
+          "quantity": 2,
+          "rental_amount": 1500,
+          "image": "armchair.jpg"
+        },
+        {
+          "name": "Retro Lamp",
+          "size": "Large",
+          "quantity": 1,
+          "rental_amount": 2000,
+          "image": "lamp.jpg"
+        }
+      ],
+      "tickets": []
+    },
+    {
+      "order_id": "ORD987654321",
+      "order_date": "2023-12-02",
+      "delivery_date": "2023-12-06",
+      "pickup_date": "2023-12-16",
+      "total_order_amount": 2800,
+      "stage": "KYC Received",
+      "customer_details": {
+        "name": "Michael Smith",
+        "contact_number": "9876543210",
+        "email": "michael@example.com",
+        "delivery_address": "456 Elm St, Othertown, USA"
+      },
+      "items": [
+        {
+          "name": "Modern Coffee Table",
+          "size": "Small",
+          "quantity": 1,
+          "rental_amount": 800,
+          "image": "coffee_table.jpg"
+        },
+        {
+          "name": "Contemporary Sofa",
+          "size": "Medium",
+          "quantity": 1,
+          "rental_amount": 2000,
+          "image": "sofa.jpg"
+        }
+      ],
+      "tickets": []
+    },
+    {
+      "order_id": "ORD456123789",
+      "order_date": "2023-12-03",
+      "delivery_date": "2023-12-07",
+      "pickup_date": "2023-12-17",
+      "total_order_amount": 4100,
+      "stage": "Order Confirmed",
+      "customer_details": {
+        "name": "Sophia Brown",
+        "contact_number": "2345678901",
+        "email": "sophia@example.com",
+        "delivery_address": "789 Oak St, Anothertown, USA"
+      },
+      "items": [
+        {
+          "name": "Antique Writing Desk",
+          "size": "Large",
+          "quantity": 1,
+          "rental_amount": 2100,
+          "image": "writing_desk.jpg"
+        },
+        {
+          "name": "Classic Bookshelf",
+          "size": "Medium",
+          "quantity": 2,
+          "rental_amount": 2000,
+          "image": "bookshelf.jpg"
+        }
+      ],
+      "tickets": []
+    },
+    {
+      "order_id": "ORD789456123",
+      "order_date": "2023-12-04",
+      "delivery_date": "2023-12-08",
+      "pickup_date": "2023-12-18",
+      "total_order_amount": 2700,
+      "stage": "Order Packed",
+      "customer_details": {
+        "name": "Oliver Davis",
+        "contact_number": "3456789012",
+        "email": "oliver@example.com",
+        "delivery_address": "101 Pine St, Somewhere, USA"
+      },
+      "items": [
+        {
+          "name": "Rustic Dining Table",
+          "size": "Medium",
+          "quantity": 1,
+          "rental_amount": 1200,
+          "image": "dining_table.jpg"
+        },
+        {
+          "name": "Farmhouse Bench",
+          "size": "Small",
+          "quantity": 1,
+          "rental_amount": 1500,
+          "image": "bench.jpg"
+        }
+      ],
+      "tickets": []
+    },
+    {
+      "order_id": "ORD234789561",
+      "order_date": "2023-12-05",
+      "delivery_date": "2023-12-09",
+      "pickup_date": "2023-12-19",
+      "total_order_amount": 3200,
+      "stage": "Order Delivered",
+      "customer_details": {
+        "name": "Ava Wilson",
+        "contact_number": "4567890123",
+        "email": "ava@example.com",
+        "delivery_address": "202 Maple St, Anywhere, USA"
+      },
+      "items": [
+        {
+          "name": "Industrial Desk Lamp",
+          "size": "Small",
+          "quantity": 1,
+          "rental_amount": 1000,
+          "image": "desk_lamp.jpg"
+        },
+        {
+          "name": "Mid-century Chair",
+          "size": "Medium",
+          "quantity": 1,
+          "rental_amount": 2200,
+          "image": "chair.jpg"
+        }
+      ],
+      "tickets": []
+    },
+    {
+      "order_id": "ORD561234789",
+      "order_date": "2023-12-06",
+      "delivery_date": "2023-12-10",
+      "pickup_date": "2023-12-20",
+      "total_order_amount": 3800,
+      "stage": "Pickup Due",
+      "customer_details": {
+        "name": "William Martinez",
+        "contact_number": "5678901234",
+        "email": "william@example.com",
+        "delivery_address": "303 Walnut St, Nowhere, USA"
+      },
+      "items": [
+        {
+          "name": "Victorian Bedframe",
+          "size": "Large",
+          "quantity": 1,
+          "rental_amount": 2800,
+          "image": "bedframe.jpg"
+        },
+        {
+          "name": "Gothic Dresser",
+          "size": "Medium",
+          "quantity": 1,
+          "rental_amount": 1000,
+          "image": "dresser.jpg"
+        }
+      ],
+      "tickets": []
+    },
+    {
+      "order_id": "ORD890561234",
+      "order_date": "2023-12-07",
+      "delivery_date": "2023-12-11",
+      "pickup_date": "2023-12-21",
+      "total_order_amount": 2900,
+      "stage": "Pickup Scheduled",
+      "customer_details": {
+        "name": "James Taylor",
+        "contact_number": "6789012345",
+        "email": "james@example.com",
+        "delivery_address": "505 Cedar St, Elsewhere, USA"
+      },
+      "items": [
+        {
+          "name": "Bohemian Rug",
+          "size": "Large",
+          "quantity": 1,
+          "rental_amount": 1800,
+          "image": "rug.jpg"
+        },
+        {
+          "name": "Moroccan Pouf",
+          "size": "Small",
+          "quantity": 1,
+          "rental_amount": 1100,
+          "image": "pouf.jpg"
+        }
+      ],
+      "tickets": []
+    },
+    {
+      "order_id": "ORD123890561",
+      "order_date": "2023-12-08",
+      "delivery_date": "2023-12-12",
+      "pickup_date": "2023-12-22",
+      "total_order_amount": 2400,
+      "stage": "Quality Checked",
+      "customer_details": {
+        "name": "Charlotte Garcia",
+        "contact_number": "7890123456",
+        "email": "charlotte@example.com",
+        "delivery_address": "707 Elm St, Nowhere, USA"
+      },
+      "items": [
+        {
+          "name": "Art Deco Mirror",
+          "size": "Medium",
+          "quantity": 1,
+          "rental_amount": 1200,
+          "image": "mirror.jpg"
+        },
+        {
+          "name": "Vintage Clock",
+          "size": "Small",
+          "quantity": 1,
+          "rental_amount": 1200,
+          "image": "clock.jpg"
+        }
+      ],
+      "tickets": []
+    },
+    {
+      "order_id": "ORD561890123",
+      "order_date": "2023-12-09",
+      "delivery_date": "2023-12-13",
+      "pickup_date": "2023-12-23",
+      "total_order_amount": 4000,
+      "stage": "Order Dispatched",
+      "customer_details": {
+        "name": "Benjamin Rodriguez",
+        "contact_number": "8901234567",
+        "email": "benjamin@example.com",
+        "delivery_address": "909 Oak St, Elsewhere, USA"
+      },
+      "items": [
+        {
+          "name": "Scandinavian Armchair",
+          "size": "Large",
+          "quantity": 1,
+          "rental_amount": 2500,
+          "image": "armchair.jpg"
+        },
+        {
+          "name": "Nordic Side Table",
+          "size": "Medium",
+          "quantity": 1,
+          "rental_amount": 1500,
+          "image": "side_table.jpg"
+        }
+      ],
+      "tickets": []
+    },
+    {
+      "order_id": "ORD890123456",
+      "order_date": "2023-12-10",
+      "delivery_date": "2023-12-14",
+      "pickup_date": "2023-12-24",
+      "total_order_amount": 3300,
+      "stage": "Order Completed",
+      "customer_details": {
+        "name": "Isabella Martinez",
+        "contact_number": "9012345678",
+        "email": "isabella@example.com",
+        "delivery_address": "111 Pine St, Nowhere, USA"
+      },
+      "items": [
+        {
+          "name": "Bohemian Rug",
+          "size": "Medium",
+          "quantity": 1,
+          "rental_amount": 1800,
+          "image": "rug.jpg"
+        },
+        {
+          "name": "Moroccan Pouf",
+          "size": "Small",
+          "quantity": 1,
+          "rental_amount": 1500,
+          "image": "pouf.jpg"
+        }
+      ],
+      "tickets": []
+    }
+  ]
+  
