@@ -19,7 +19,7 @@ const OrdersComponent = () => {
             scrollThreshold={0.9} // Adjust the threshold as needed
         >
             {data && data.pages.flatMap(page => page.data).map(order => (
-                <div className='p-8 bg-yellow-300 flex justify-center items-center flex-col' key={order._id}>
+                <div className='p-8 flex justify-center items-center flex-col' key={order._id}>
                     <Card  order={order}/>
 
                 </div>

@@ -1,0 +1,437 @@
+[
+    {
+        "order_id": "ORD004",
+        "order_date": "2024-04-08",
+        "delivery_date": "2024-04-18",
+        "pickup_date": "2024-04-23",
+        "total_order_amount": 450,
+        "order_type": "normal",
+        "stages": [
+            "Received",
+            "Confirmed",
+            "Shipped",
+            "Delivered"
+        ],
+        "current_stage": "Confirmed",
+        "customer_details": {
+            "name": "Emily Brown",
+            "contact_number": "2345678901",
+            "email": "emily@example.com",
+            "delivery_address": "101 Pine St, Suburb"
+        },
+        "items": [
+            {
+                "name": "Product 6",
+                "size": "Small",
+                "quantity": 2,
+                "rental_amount": 200,
+                "image": "product6.jpg"
+            },
+            {
+                "name": "Product 7",
+                "size": "Medium",
+                "quantity": 1,
+                "rental_amount": 250,
+                "image": "product7.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD005",
+        "order_date": "2024-04-09",
+        "delivery_date": "2024-04-19",
+        "pickup_date": "2024-04-24",
+        "total_order_amount": 700,
+        "order_type": "cancelled",
+        "stages": [
+            "Received",
+            "Confirmed",
+            "Cancelled"
+        ],
+        "current_stage": "Cancelled",
+        "customer_details": {
+            "name": "Michael Wilson",
+            "contact_number": "3456789012",
+            "email": "michael@example.com",
+            "delivery_address": "202 Maple St, Rural"
+        },
+        "items": [
+            {
+                "name": "Product 8",
+                "size": "Large",
+                "quantity": 1,
+                "rental_amount": 400,
+                "image": "product8.jpg"
+            },
+            {
+                "name": "Product 9",
+                "size": "Medium",
+                "quantity": 2,
+                "rental_amount": 300,
+                "image": "product9.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD006",
+        "order_date": "2024-04-10",
+        "delivery_date": "2024-04-20",
+        "pickup_date": "2024-04-25",
+        "total_order_amount": 550,
+        "order_type": "return",
+        "stages": [
+            "Pickup Due",
+            "Pickup Scheduled",
+            "Quality Checked",
+            "Order Completed"
+        ],
+        "current_stage": "Pickup Scheduled",
+        "customer_details": {
+            "name": "Sophia Lee",
+            "contact_number": "4567890123",
+            "email": "sophia@example.com",
+            "delivery_address": "303 Cedar St, Town"
+        },
+        "items": [
+            {
+                "name": "Product 10",
+                "size": "Small",
+                "quantity": 3,
+                "rental_amount": 150,
+                "image": "product10.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD007",
+        "order_date": "2024-04-11",
+        "delivery_date": "2024-04-21",
+        "pickup_date": "2024-04-26",
+        "total_order_amount": 400,
+        "order_type": "normal",
+        "stages": [
+            "Received",
+            "Confirmed",
+            "Shipped",
+            "Delivered"
+        ],
+        "current_stage": "Delivered",
+        "customer_details": {
+            "name": "Liam Garcia",
+            "contact_number": "5678901234",
+            "email": "liam@example.com",
+            "delivery_address": "404 Oak St, Village"
+        },
+        "items": [
+            {
+                "name": "Product 11",
+                "size": "Large",
+                "quantity": 1,
+                "rental_amount": 200,
+                "image": "product11.jpg"
+            },
+            {
+                "name": "Product 12",
+                "size": "Medium",
+                "quantity": 1,
+                "rental_amount": 200,
+                "image": "product12.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD008",
+        "order_date": "2024-04-12",
+        "delivery_date": "2024-04-22",
+        "pickup_date": "2024-04-27",
+        "total_order_amount": 650,
+        "order_type": "return",
+        "stages": [
+            "Pickup Due",
+            "Pickup Scheduled",
+            "Quality Checked",
+            "Order Completed"
+        ],
+        "current_stage": "Quality Checked",
+        "customer_details": {
+            "name": "Olivia Martinez",
+            "contact_number": "6789012345",
+            "email": "olivia@example.com",
+            "delivery_address": "505 Elm St, City"
+        },
+        "items": [
+            {
+                "name": "Product 13",
+                "size": "Small",
+                "quantity": 2,
+                "rental_amount": 300,
+                "image": "product13.jpg"
+            },
+            {
+                "name": "Product 14",
+                "size": "Medium",
+                "quantity": 1,
+                "rental_amount": 350,
+                "image": "product14.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD009",
+        "order_date": "2024-04-13",
+        "delivery_date": "2024-04-23",
+        "pickup_date": "2024-04-28",
+        "total_order_amount": 800,
+        "order_type": "normal",
+        "stages": [
+            "Received",
+            "Confirmed",
+            "Shipped",
+            "Delivered"
+        ],
+        "current_stage": "Order Dispatched",
+        "customer_details": {
+            "name": "James Taylor",
+            "contact_number": "7890123456",
+            "email": "james@example.com",
+            "delivery_address": "606 Pine St, Suburb"
+        },
+        "items": [
+            {
+                "name": "Product 15",
+                "size": "Large",
+                "quantity": 2,
+                "rental_amount": 400,
+                "image": "product15.jpg"
+            },
+            {
+                "name": "Product 16",
+                "size": "Medium",
+                "quantity": 1,
+                "rental_amount": 400,
+                "image": "product16.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD010",
+        "order_date": "2024-04-14",
+        "delivery_date": "2024-04-24",
+        "pickup_date": "2024-04-29",
+        "total_order_amount": 500,
+        "order_type": "return",
+        "stages": [
+            "Pickup Due",
+            "Pickup Scheduled",
+            "Quality Checked",
+            "Order Completed"
+        ],
+        "current_stage": "Order Completed",
+        "customer_details": {
+            "name": "Emma Brown",
+            "contact_number": "8901234567",
+            "email": "emma@example.com",
+            "delivery_address": "707 Cedar St, Town"
+        },
+        "items": [
+            {
+                "name": "Product 17",
+                "size": "Small",
+                "quantity": 1,
+                "rental_amount": 200,
+                "image": "product17.jpg"
+            },
+            {
+                "name": "Product 18",
+                "size": "Medium",
+                "quantity": 1,
+                "rental_amount": 300,
+                "image": "product18.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD011",
+        "order_date": "2024-04-15",
+        "delivery_date": "2024-04-25",
+        "pickup_date": "2024-04-30",
+        "total_order_amount": 600,
+        "order_type": "normal",
+        "stages": [
+            "Received",
+            "Confirmed",
+            "Shipped",
+            "Delivered"
+        ],
+        "current_stage": "Shipped",
+        "customer_details": {
+            "name": "Aiden Johnson",
+            "contact_number": "9012345678",
+            "email": "aiden@example.com",
+            "delivery_address": "808 Elm St, City"
+        },
+        "items": [
+            {
+                "name": "Product 19",
+                "size": "Small",
+                "quantity": 2,
+                "rental_amount": 300,
+                "image": "product19.jpg"
+            },
+            {
+                "name": "Product 20",
+                "size": "Medium",
+                "quantity": 1,
+                "rental_amount": 300,
+                "image": "product20.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD012",
+        "order_date": "2024-04-16",
+        "delivery_date": "2024-04-26",
+        "pickup_date": "2024-05-01",
+        "total_order_amount": 750,
+        "order_type": "cancelled",
+        "stages": [
+            "Received",
+            "Confirmed",
+            "Cancelled"
+        ],
+        "current_stage": "Received",
+        "customer_details": {
+            "name": "Ella Thompson",
+            "contact_number": "0123456789",
+            "email": "ella@example.com",
+            "delivery_address": "909 Maple St, Rural"
+        },
+        "items": [
+            {
+                "name": "Product 21",
+                "size": "Large",
+                "quantity": 2,
+                "rental_amount": 400,
+                "image": "product21.jpg"
+            },
+            {
+                "name": "Product 22",
+                "size": "Medium",
+                "quantity": 1,
+                "rental_amount": 350,
+                "image": "product22.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD013",
+        "order_date": "2024-04-17",
+        "delivery_date": "2024-04-27",
+        "pickup_date": "2024-05-02",
+        "total_order_amount": 850,
+        "order_type": "normal",
+        "stages": [
+            "Received",
+            "Confirmed",
+            "Shipped",
+            "Delivered"
+        ],
+        "current_stage": "Confirmed",
+        "customer_details": {
+            "name": "Mia Anderson",
+            "contact_number": "1234567890",
+            "email": "mia@example.com",
+            "delivery_address": "1010 Oak St, Village"
+        },
+        "items": [
+            {
+                "name": "Product 23",
+                "size": "Small",
+                "quantity": 3,
+                "rental_amount": 250,
+                "image": "product23.jpg"
+            },
+            {
+                "name": "Product 24",
+                "size": "Medium",
+                "quantity": 2,
+                "rental_amount": 300,
+                "image": "product24.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD014",
+        "order_date": "2024-04-18",
+        "delivery_date": "2024-04-28",
+        "pickup_date": "2024-05-03",
+        "total_order_amount": 500,
+        "order_type": "return",
+        "stages": [
+            "Pickup Due",
+            "Pickup Scheduled",
+            "Quality Checked",
+            "Order Completed"
+        ],
+        "current_stage": "Order Completed",
+        "customer_details": {
+            "name": "Lucas Harris",
+            "contact_number": "2345678901",
+            "email": "lucas@example.com",
+            "delivery_address": "111 Pine St, Suburb"
+        },
+        "items": [
+            {
+                "name": "Product 25",
+                "size": "Large",
+                "quantity": 1,
+                "rental_amount": 300,
+                "image": "product25.jpg"
+            },
+            {
+                "name": "Product 26",
+                "size": "Medium",
+                "quantity": 2,
+                "rental_amount": 200,
+                "image": "product26.jpg"
+            }
+        ]
+    },
+    {
+        "order_id": "ORD015",
+        "order_date": "2024-04-19",
+        "delivery_date": "2024-04-29",
+        "pickup_date": "2024-05-04",
+        "total_order_amount": 400,
+        "order_type": "normal",
+        "stages": [
+            "Received",
+            "Confirmed",
+            "Shipped",
+            "Delivered"
+        ],
+        "current_stage": "Received",
+        "customer_details": {
+            "name": "Harper King",
+            "contact_number": "3456789012",
+            "email": "harper@example.com",
+            "delivery_address": "1212 Cedar St, Town"
+        },
+        "items": [
+            {
+                "name": "Product 27",
+                "size": "Small",
+                "quantity": 1,
+                "rental_amount": 200,
+                "image": "product27.jpg"
+            },
+            {
+                "name": "Product 28",
+                "size": "Medium",
+                "quantity": 1,
+                "rental_amount": 200,
+                "image": "product28.jpg"
+            }
+        ]
+    }
+]
