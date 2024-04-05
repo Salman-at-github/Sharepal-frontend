@@ -36,3 +36,36 @@ export const formatDate = (dateString) => {
     // Return the formatted date string
     return `${dayName}, ${month} ${day}, ${year}`;
 };
+
+export const formatIndianNumber = (amount) => {
+    const amountString = amount.toString();
+    if (amountString.includes('.')) {
+        const [integerPart, decimalPart] = amountString.split('.');
+        const formattedIntegerPart = formatIntegerPart(integerPart);
+        return `${formattedIntegerPart}.${decimalPart}`;
+    } else if (amountString.includes('-')) {
+        const [sign, value] = amountString.split('-');
+        return `${sign}${formatIndianNumber(parseInt(value))}`;
+    } else if (amount >= 1000) {
+        return formatIntegerPart(amountString);
+    } else {
+        return amountString;
+    }
+}
+
+const formatIntegerPart = (integerPart) => {
+    let formattedPart = '';
+    let count = 0;
+    for (let i = integerPart.length - 1; i >= 0; i--) {
+        count++;
+        formattedPart = integerPart[i] + formattedPart;
+        if (count === 3 && i !== 0) {
+            formattedPart = ',' + formattedPart;
+            count = 0;
+        }
+    }
+    return formattedPart;
+}
+
+
+

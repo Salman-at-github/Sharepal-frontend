@@ -1,3 +1,4 @@
+import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
 import Order from "./components/pages/Order";
 import OrdersComponent from "./components/pages/Orders";
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<OrdersComponent/>}/>
         <Route path="/order/:orderId" element={<Order/>}/>
       </Routes>
+      <Footer/>
     </div>
     </Router>
   )

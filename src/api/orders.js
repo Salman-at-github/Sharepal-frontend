@@ -13,5 +13,16 @@ const fetchOrders = async (page = 1, limit = 6) => {
         throw new Error(error);
     }
 };
+const fetchOrder = async (id) => {
+    try {
+        const response = await fetch(`${host}/api/v1/orders/${id}`);
+        if (response.status === 200) {
+            return await response.json();
+        }
+    } catch (error) {
+        throw new Error(error);
+    }
+};
 
-module.exports = {fetchOrders}
+
+module.exports = {fetchOrders, fetchOrder}

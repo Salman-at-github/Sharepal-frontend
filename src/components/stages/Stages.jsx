@@ -1,7 +1,7 @@
 import React from "react";
 import { formatDate } from "../../utils/helpers";
 
-const Stages = ({ orderDate, stages, currentStage, orderType }) => {
+const Stages = ({ stages, currentStage, orderType }) => {
     const getStageColor = (stage) => {
         const stageIndex = stages.indexOf(stage);
         const currentStageIndex = stages.indexOf(currentStage);
@@ -25,19 +25,20 @@ const Stages = ({ orderDate, stages, currentStage, orderType }) => {
                     }`}
                 >
                     <span
-                        className={`flex items-center justify-center w-8 h-8 border-[1.5px] mr-2 border-[${getStageColor(stage)}] rounded-full`}
+                        className={`flex items-center justify-center w-8 h-8 mr-2 rounded-full`}
+                        style={{border: `2px solid ${getStageColor(stage.stage)}`}}
                     >
                         {index + 1}
                     </span>
                     <span>
                         <h3
-                            className={`font-medium mb-1 leading-tight text-${getStageColor(
-                                stage
-                            )}-500`}
+                            className={`font-semibold text-lg mb-1 leading-tight`} style={{color: `${getStageColor(
+                                stage.stage
+                            )}`}}
                         >
-                            Order {stage}
+                            Order {stage.stage}
                         </h3>
-                        <p className="text-sm">{formatDate(orderDate)}</p>
+                        <p className="text-sm">{formatDate(stage?.date)}</p>
                     </span>
                 </li>
             ))}
